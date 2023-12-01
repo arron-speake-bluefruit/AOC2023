@@ -1,6 +1,6 @@
 .PHONY: all clean
 
-all: one-1.elf
+all: one-1.elf one-2.elf
 
 clean:
 	rm -f *.elf *.o

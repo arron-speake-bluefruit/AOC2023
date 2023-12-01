@@ -1,8 +1,8 @@
 .extern exit
 .extern print_unsigned
-.global open_file
-.global close_file
-.global read_byte_from_file
+.extern open_file
+.extern close_file
+.extern read_byte_from_file
 
 .global _start
 
@@ -106,4 +106,4 @@ _start:
 .section .rodata
 
 input_path:
-    .ascii "data/one-1.txt\0"
+    .ascii "data/one.txt\0"
